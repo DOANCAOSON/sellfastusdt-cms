@@ -1,0 +1,11 @@
+button.header-item {
+  background-color: #272d3e;
+  :hover {
+    background: transparent;
+  }
+}
+#sidebar-menu {
+  .active a {
+    color: #fff !important;
+  }
+}

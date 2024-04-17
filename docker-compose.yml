@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  cms:
+    build:
+      dockerfile: Dockerfile
+    volumes:
+      - .:/usr/src/app
+    environment:
+      - VITE_BASE_URL=https://be.sellfastusdt.com/cms
+      - VITE_SOCKET_URL=https://be.sellfastusdt.com/socket
+    command: node server.js
+    ports:
+      - '3001:3001'
+    expose:
+      - 3001
+
+volumes:
+  db:
+    driver: local

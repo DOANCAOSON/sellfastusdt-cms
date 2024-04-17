@@ -1,0 +1,80 @@
+// BG
+$main-bg: #2a3447;
+$soft-bg: #384256;
+$dark-bg: #222b3c;
+
+//TEXT
+$main-color: #ffffff;
+$soft-color: #ddd;
+$dark-color: #2a3447;
+
+// Vertical Sidebar - Default Light
+$sidebar-width: 250px;
+$sidebar-collapsed-width: 70px;
+$sidebar-width-sm: 160px;
+
+// Topbar - Deafult Light
+$header-bg: #272d3e;
+
+$footer-bg: #212734;
+$footer-color: #919bae;
+
+// Horizontal nav
+$menu-item-active-color: #0bb197;
+
+// Font Weight
+$font-weight-medium: 500;
+
+// Custom Font
+$font-family-secondary: 'Work Sans', sans-serif;
+
+// scss-docs-start gray-color-variables
+$white: #fff;
+$gray-100: #1e2125;
+$gray-200: #252b3b;
+$gray-300: #2d3448;
+$gray-400: #79859c;
+$gray-500: #8590a5;
+$gray-600: #919bae;
+$gray-700: #f6f6f6;
+$gray-800: #eff2f7;
+$gray-900: #f8f9fa;
+$black: #000;
+// scss-docs-end gray-color-variables
+
+// fusv-disable
+// scss-docs-start gray-colors-map
+$grays: (
+  '100': $gray-100,
+  '200': $gray-200,
+  '300': $gray-300,
+  '400': $gray-400,
+  '500': $gray-500,
+  '600': $gray-600,
+  '700': $gray-700,
+  '800': $gray-800,
+  '900': $gray-900
+);
+// scss-docs-end gray-colors-map
+// fusv-enable
+
+$blue: #0bb197;
+$red: #ff3d60;
+
+// Breadcrumbs
+
+// scss-docs-start breadcrumb-variables
+$breadcrumb-font-size: null;
+$breadcrumb-padding-y: 0.75rem;
+$breadcrumb-padding-x: 1rem;
+$breadcrumb-item-padding-x: 0.5rem;
+
+$breadcrumb-margin-bottom: 1rem;
+
+$breadcrumb-bg: null;
+$breadcrumb-divider-color: $gray-600;
+$breadcrumb-active-color: $gray-600;
+$breadcrumb-divider: quote('\F0142');
+$breadcrumb-divider-flipped: $breadcrumb-divider;
+$breadcrumb-border-radius: null;
+// scss-docs-end breadcrumb-variables

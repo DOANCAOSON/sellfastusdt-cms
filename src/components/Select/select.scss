@@ -1,0 +1,39 @@
+@import '../../styles/variables.scss';
+
+.detail-select,
+.detail-select-dropdown {
+  width: 100%;
+  background-color: $main-bg;
+  .detail-select-item-option-content {
+    color: $gray-500;
+  }
+  svg {
+    fill: $gray-500 !important;
+  }
+  .detail-select-clear {
+    background-color: $gray-200 !important;
+  }
+}
+.detail-select.form-control {
+  padding: 0 !important;
+}
+.detail-select-selector {
+  background-color: $gray-200 !important;
+  border: 1px solid $gray-300 !important;
+  border-radius: 0.25rem !important;
+  color: $gray-500 !important;
+  font-size: 0.875rem;
+  .detail-select-selection-placeholder,
+  .detail-select-selection-item {
+    color: $gray-500 !important;
+    font-size: 0.875rem !important;
+  }
+}
+.detail-select-status-error {
+  border-color: $red;
+}
+.detail-select-disabled {
+  .detail-select-selection-item-content {
+    color: $gray-500;
+  }
+}

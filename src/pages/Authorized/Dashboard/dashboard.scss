@@ -1,0 +1,86 @@
+@import "../../../styles/variables.scss";
+
+.page-content.dashboard {
+  padding: 0;
+  .apex-charts .apexcharts-align-center {
+    flex-direction: row-reverse;
+  }
+  .range-picker-container {
+    line-height: 1.5;
+    width: 100%;
+    height: 39px;
+    border: 1px solid $gray-300;
+    background-color: $gray-200 !important;
+    .ant-picker-input input,
+    .ant-picker-input input::placeholder {
+      color: $gray-500 !important;
+    }
+    .anticon.anticon-calendar {
+      color: $gray-500;
+      &:hover {
+        background-color: transparent;
+      }
+    }
+  }
+  label.form-label {
+    text-align: end;
+  }
+  .empty.col {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div#date-range {
+    gap: 10px;
+    justify-content: end;
+  }
+  .apexcharts-pie path {
+    cursor: pointer;
+  }
+  .apexcharts-tooltip {
+    word-wrap: break-word;
+    max-width: 300px;
+  }
+  #CancelReason {
+    .apexcharts-legend.apexcharts-align-left.apx-legend-position-bottom {
+      max-height: 80px !important;
+    }
+    .apexcharts-tooltip-text-y-label {
+      height: 100%;
+      white-space: initial;
+    }
+    .apexcharts-legend-series {
+      width: 100%;
+    }
+    span.apexcharts-legend-text {
+      overflow: hidden;
+      width: 100%;
+      text-overflow: ellipsis;
+      display: -webkit-inline-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      white-space: break-spaces;
+    }
+  }
+}
+
+.range-picker {
+  .ant-picker-panels {
+    background-color: $gray-300;
+  }
+  .ant-picker-header-super-prev-btn,
+  .ant-picker-header-prev-btn,
+  .ant-picker-header-next-btn,
+  .ant-picker-header-super-next-btn,
+  .ant-picker-month-btn,
+  .ant-picker-year-btn {
+    color: $gray-500 !important;
+  }
+  .ant-picker-content tr th {
+    color: $gray-500;
+  }
+  .ant-picker-cell-inner {
+    color: $gray-500;
+  }
+}
